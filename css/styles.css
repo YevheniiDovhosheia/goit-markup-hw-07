@@ -923,6 +923,8 @@ img {
     display: none;
   }
   .header {
+    padding-top: 14px;
+    padding-bottom: 14px;
     align-items: center;
   }
   .header-list {
@@ -946,7 +948,7 @@ img {
     margin-bottom: 16px;
   }
   .link-nav.current::after {
-    bottom: -18px;
+    bottom: -24px;
   }
   .address-list {
     display: flex;
@@ -1063,9 +1065,7 @@ img {
   .logo {
     margin-right: 76px;
   }
-  .link-nav.current::after {
-    bottom: -24px;
-  }
+
   .link-addres {
     font-size: 16px;
     line-height: 1.5;
@@ -1077,6 +1077,8 @@ img {
   }
 
   .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
     max-width: 1440px;
     background-image: var(--grad), url(../images/hero.jpg);
   }
